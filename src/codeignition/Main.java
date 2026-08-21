@@ -25,6 +25,9 @@ public class Main {
         int count = countOccurrences(letters, 'A');
         System.out.println(count);
 
+        Lens newLens = new Lens("Sony", "88", true);
+        System.out.println("The lens brand is: " + newLens.brand);
+
     }
 
 
@@ -38,6 +41,21 @@ public static int countOccurrences(char[] letters, char searchLetter) {
         }
 
     return numberOfOccurrences;
+    }
+
+
+
+    static class Lens {
+        String brand;
+        String focalLength;
+        Boolean isPrime;
+
+
+        Lens(String brand, String focalLength, Boolean isPrime) {
+            this.brand = brand;
+            this.focalLength = focalLength;
+            this.isPrime = isPrime;
+        }
     }
 
 }
