@@ -25,7 +25,7 @@ public class Main {
         int count = countOccurrences(letters, 'A');
         System.out.println(count);
 
-        Lens newLens = new Lens("Sony", "88", true);
+        Lens newLens = new Lens("Sony", "85mm", true);
         System.out.println("The lens brand is: " + newLens.brand);
 
     }
