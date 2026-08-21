@@ -20,6 +20,8 @@ public class Main {
 
         System.out.println("You were born in " + birthYear);
 
+        scanner.close();
+
         char[] letters ={'A','A','A','B','C','D','D','D'};
 
         int count = countOccurrences(letters, 'A');
