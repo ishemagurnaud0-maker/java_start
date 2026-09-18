@@ -6,7 +6,7 @@ import java.time.LocalDateTime;
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) {
+     static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("What is your name:");
         String userName = scanner.nextLine();
@@ -31,6 +31,8 @@ public class Main {
         System.out.println("The lens brand is: " + newLens.brand);
 
     }
+
+
 
 
 public static int countOccurrences(char[] letters, char searchLetter) {
